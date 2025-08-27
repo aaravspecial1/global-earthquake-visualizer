@@ -1,0 +1,21 @@
+# 🌍 Global Earthquake Visualizer
+
+A Python project that fetches earthquake data (GeoJSON format) and visualizes it on an interactive world map using **Plotly**.  
+Earthquakes are displayed as points, with **marker size representing magnitude** and **colors indicating intensity**.
+
+---
+
+## 🚀 Features
+- Reads raw GeoJSON earthquake data.
+- Cleans and saves a readable version of the dataset.
+- Extracts **longitude, latitude, magnitude, and title** from each earthquake.
+- Plots earthquakes on a **world map with interactive zoom & hover tooltips**.
+- Magnitude controls **marker size** and **color intensity**.
+
+---
+
+## 🛠️ Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/global-earthquake-visualizer.git
+   cd global-earthquake-visualizer
